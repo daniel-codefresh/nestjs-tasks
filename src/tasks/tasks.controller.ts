@@ -17,8 +17,8 @@ import { CreateTaskRequestBodyDto } from './dto/create-task.dto';
 import { TaskDocument } from './task.schema';
 import { Types } from 'mongoose';
 import { UpdateTaskRequestBodyDto } from './dto/update-task.dto';
-import { ObjectIdValidationPipe } from '../pipes/ObjectIdValidationPipe';
-import { PayloadExistsValidationPipe } from '../pipes/PayloadExistsValidationPipe';
+import { ObjectIdValidationPipe } from '../pipes/object-id-validation.pipe';
+import { PayloadExistsValidationPipe } from '../pipes/payload-exists-validation.pipe';
 
 @Controller('tasks')
 export class TasksController {

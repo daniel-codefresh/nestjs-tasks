@@ -1,5 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { TaskStatus } from './types/task.types';
+import { TaskStatus } from './interfaces/task.interface';
 import { Document } from 'mongoose';
 
 export type TaskDocument = Task & Document;
